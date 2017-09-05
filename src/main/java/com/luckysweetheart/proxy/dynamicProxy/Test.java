@@ -21,7 +21,7 @@ public class Test {
         System.out.println(proxy.getClass());
 
         // 执行方法   【代理对象】
-        proxy.save();
+        proxy.save("liububu");
 
     }
 }

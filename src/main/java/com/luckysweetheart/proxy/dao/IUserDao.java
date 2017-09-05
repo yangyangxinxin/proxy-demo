@@ -9,6 +9,6 @@ public interface IUserDao {
     /**
      * 保存用户
      */
-    void save();
+    void save(String name);
 
 }

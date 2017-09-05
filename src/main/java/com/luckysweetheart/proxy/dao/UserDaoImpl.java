@@ -6,7 +6,7 @@ package com.luckysweetheart.proxy.dao;
  */
 public class UserDaoImpl implements IUserDao {
 
-    public void save() {
-        System.out.println("====已成功保存数据！====");
+    public void save(String name) {
+        System.out.println("====已成功保存数据！====: " + name);
     }
 }

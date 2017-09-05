@@ -14,9 +14,9 @@ public class UserDaoProxy implements IUserDao {
         this.target = target;
     }
 
-    public void save() {
+    public void save(String name) {
         System.out.println("开始事务...");
-        target.save();
+        target.save(name);
         System.out.println("提交事务...");
     }
 }

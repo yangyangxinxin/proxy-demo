@@ -19,7 +19,7 @@ public class Test {
         IUserDao proxyInstance = (IUserDao) new CglibProxyFactory(target).getProxyInstance();
 
         //执行代理对象的方法
-        proxyInstance.save();
+        proxyInstance.save("yangxin");
     }
 
 }
